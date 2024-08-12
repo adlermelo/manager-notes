@@ -1,0 +1,29 @@
+.NoteCard {
+    border: 1px solid #ddd;
+    padding: 10px;
+    margin: 10px 0;
+    border-radius: 5px;
+    position: relative;
+  }
+  
+  .NoteCard-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+  
+  .NoteCard-actions {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .ColorPicker {
+    position: absolute;
+    bottom: -50px;
+    left: 0;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    padding: 5px;
+    border-radius: 5px;
+  }
+  
